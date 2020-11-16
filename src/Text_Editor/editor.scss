@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .k2-CB-popup {
   position: relative;
   display: inline-block;
@@ -55,28 +55,23 @@
   box-sizing: border-box;
 }
 
-  .k2-te-dimension-control input{
-	width: 20%;
-	font-size: smaller;
-	box-sizing: border-box;
-	margin-left: 5px;
-  }
+.k2-te-dimension-control input{
+  width: 20%;
+  font-size: smaller;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
 
 .k2-te-dimension-control-mt{
   margin-top: 10px;
 }
 
-.k2-te-paragraph{
-	margin:0 !important;
-}
-=======
-
 #k2-te-wrapper{
   width: 100% !important;
 }
-	.k2-te-paragraph{
-		margin:0 !important;
-	}
+.k2-te-paragraph{
+  margin:0 !important;
+}
 
 @media (min-width: 320px) and (max-width: 800px){
   #k2-te-parent {
@@ -89,13 +84,9 @@
 	margin-left: 0 !important;
   }
 }
+
 @media (min-width: 600px) and (max-width: 1024px){
   #k2-te-parent{
 	width: 100% !important;
   }
 }
-
->>>>>>> master
-
-
-

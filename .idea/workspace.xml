@@ -1,18 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand />
-    <select />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68de9a7a-4bba-49e3-94b3-afcd596e4ce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Alert/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alert/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alert/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banner/Banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banner/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banner/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Button/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Button/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Call_To_Action/Call_To_Action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Call_To_Action/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Call_To_Action/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter_Block/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter_Block/Fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter_Block/Frontend/CounterFe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter_Block/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Counter_Block/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor-Controls-Component/Color-Picker-Component/Color-Picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor-Controls-Component/Color-Picker-Component/Color-Picker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global_Fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Global_Icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heading_Block/Heading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heading_Block/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heading_Block/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image_Scroll/Frontend/ImageScrollFrontEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image_Scroll/ImageScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image_Scroll/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image_Scroll/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout_Section/Section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout_Section/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout_Section/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal_Box/Frontend/ModalBoxFe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal_Box/Modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal_Box/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modal_Box/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Premium_Section/Frontend/PremiumSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Premium_Section/PremiumSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Premium_Section/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Premium_Section/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Progress_Bar_Block/ProgressBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Progress_Bar_Block/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Progress_Bar_Block/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text_Editor/Text_Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text_Editor/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text_Editor/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Timer_Block/Frontend/TimerFe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Timer_Block/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Timer_Block/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Timer_Block/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blocks.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blocks.build.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blocks.editor.build.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blocks.editor.build.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/blocks.style.build.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/blocks.style.build.css" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Call_To_Action/Call_To_Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Call_To_Action/Call_To_Action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks.js" afterDir="false" />
+=======
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +96,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Counter_Block/Counter.js" root0="SKIP_INSPECTION" />
@@ -48,7 +115,7 @@
     <setting file="file://$PROJECT_DIR$/src/Image_Scroll/ImageScroll.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1azVGV6kte139ODlXo3BqkaXwOA" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -110,12 +177,16 @@
       <workItem from="1591018926767" duration="774000" />
       <workItem from="1591022347657" duration="14996000" />
       <workItem from="1592068868881" duration="4035000" />
+<<<<<<< HEAD
       <workItem from="1604384367380" duration="13964000" />
       <workItem from="1604463743545" duration="15617000" />
       <workItem from="1604481125787" duration="6218000" />
       <workItem from="1604549261979" duration="21989000" />
       <workItem from="1604599799754" duration="4707000" />
       <workItem from="1604636405745" duration="18920000" />
+=======
+      <workItem from="1604896025465" duration="15929000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
@@ -136,7 +207,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -144,6 +227,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="354" y="175" width="719" height="452" key="EditFileWatcherDialog" timestamp="1604385448480">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -168,5 +252,15 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="383" y="174" key="run.anything.popup/72.27.1294.741@72.27.1294.741" timestamp="1604480664231" />
+=======
+    <state x="172" y="127" width="1094" height="541" key="DiffContextDialog" timestamp="1604772616568">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="172" y="127" width="1094" height="541" key="DiffContextDialog/72.27.1294.741@72.27.1294.741" timestamp="1604772616568" />
+    <state x="172" y="127" width="1094" height="541" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1604772057911">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="172" y="127" width="1094" height="541" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/72.27.1294.741@72.27.1294.741" timestamp="1604772057911" />
+>>>>>>> master
   </component>
 </project>

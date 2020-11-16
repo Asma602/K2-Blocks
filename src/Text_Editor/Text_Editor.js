@@ -1,7 +1,11 @@
 
 
 //  Import CSS.
+<<<<<<< HEAD
 import './content.scss';
+=======
+import './editor.scss';
+>>>>>>> master
 import './style.scss';
 import { GLOBAL_FONTS } from '../Global_Fonts';
 
@@ -71,6 +75,7 @@ registerBlockType( 'k2/text-editor', {
 	attributes: {
 		EditorFontSize: {
 			type: 'number',
+<<<<<<< HEAD
 			default: 16
 		},
 		EditorFontFamily: {
@@ -80,6 +85,17 @@ registerBlockType( 'k2/text-editor', {
 		EditorTextColor: {
 			type:'string',
 			default: 'black'
+=======
+			default: 4
+		},
+		EditorFontFamily: {
+			type: 'string',
+			default: 'inherit'
+		},
+		EditorTextColor: {
+			type:'string',
+			default: 'white'
+>>>>>>> master
 		},
 		EditorTextAlignment: {
 			type: 'string',
@@ -173,6 +189,7 @@ registerBlockType( 'k2/text-editor', {
 			type: 'string',
 			default:'rgb(25, 149, 173)'
 		},
+<<<<<<< HEAD
 		EditorBorderRadius: {
 			type: 'number',
 			default: 0
@@ -180,6 +197,12 @@ registerBlockType( 'k2/text-editor', {
 		EditorWidgetWidth: {
 			type: 'number',
 			default: 25
+=======
+
+		EditorWidgetWidth: {
+			type: 'number',
+			default:30
+>>>>>>> master
 		}
 	},
 	// Editor Mode
@@ -222,7 +245,11 @@ registerBlockType( 'k2/text-editor', {
 			{ label : 'Overline', value: 'overline' },
 		]
 		const TextEditorStyling = {
+<<<<<<< HEAD
 			fontSize: attributes.EditorFontSize + 'px',
+=======
+			fontSize: attributes.EditorFontSize + 'vw',
+>>>>>>> master
 			fontFamily: attributes.EditorFontFamily,
 			color: attributes.EditorTextColor,
 			fontWeight: attributes.EditorFontWeight,
@@ -466,6 +493,10 @@ registerBlockType( 'k2/text-editor', {
 				EditorContent: newText
 			})
 		}
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 		return [
 			<InspectorControls>
 				<PanelBody >
@@ -486,6 +517,7 @@ registerBlockType( 'k2/text-editor', {
 							</div>
 						</div>
 					</PanelRow>
+<<<<<<< HEAD
 
 					<PanelRow>
 						<p><strong>Text color</strong></p>
@@ -530,6 +562,10 @@ registerBlockType( 'k2/text-editor', {
 						</div>
 					</PanelRow>
 
+=======
+				</PanelBody>
+				<PanelBody>
+>>>>>>> master
 					<RangeControl
 						label={<strong> Widget Width <small>  (rem)</small></strong>}
 						value={ attributes.EditorWidgetWidth }
@@ -540,12 +576,22 @@ registerBlockType( 'k2/text-editor', {
 					/>
 				</PanelBody>
 				<PanelBody title={'Typography'}>
+<<<<<<< HEAD
 					<RangeControl
 						label={<strong> Font Size <small>  (px) </small></strong>}
 						value={ attributes.EditorFontSize }
 						onChange={ onChangeEditorFontSize }
 						min={ 16 }
 						max={ 100 }
+=======
+
+					<RangeControl
+						label={<strong> Font Size <small>  (vw) </small></strong>}
+						value={ attributes.EditorFontSize }
+						onChange={ onChangeEditorFontSize }
+						min={ 1 }
+						max={ 10 }
+>>>>>>> master
 						step ={1}
 					/>
 					<SelectControl
@@ -594,7 +640,52 @@ registerBlockType( 'k2/text-editor', {
 						max={ 50 }
 						step ={0.1}
 					/>
+<<<<<<< HEAD
 
+=======
+					<PanelRow>
+						<p><strong>Text color</strong></p>
+						<div className="k2-CB-popup">
+							<span style={{backgroundColor: attributes.EditorTextColor}} className={ 'k2-CB-dot' } onClick={ myFunction }>
+							</span>
+							<span className="k2-CB-popup-text"  hidden={ true }>
+								<div>
+									<ColorPicker
+										color={ attributes.EditorTextColor }
+										onChangeComplete={ onChangeEditorTextColor }
+									/>
+									<TextControl
+										onChange={ ( value ) => {
+											setAttributes( { EditorTextColor: value } )
+										} }
+										value={ attributes.EditorTextColor}
+									/>
+								</div>
+							</span>
+						</div>
+					</PanelRow>
+					<PanelRow>
+						<p><strong>Background color</strong></p>
+						<div className="k2-CB-popup">
+							<span style={{backgroundColor: attributes.EditorBackgroundColor}} className={ 'k2-CB-dot' } onClick={ myFunction }>
+							</span>
+							<span className="k2-CB-popup-text"  hidden={ true }>
+								<div>
+									<ColorPicker
+										color={ attributes.EditorBackgroundColor }
+										onChangeComplete={ onChangeEditorBackgroundColor }
+									/>
+									<TextControl
+										onChange={ ( value ) => {
+											setAttributes( { EditorBackgroundColor: value } )
+										} }
+										value={ attributes.EditorBackgroundColor}
+									/>
+								</div>
+							</span>
+						</div>
+					</PanelRow>
+>>>>>>> master
 
 				</PanelBody>
 				<PanelBody title={'Styles'}>
@@ -675,7 +766,10 @@ registerBlockType( 'k2/text-editor', {
 					</PanelRow>
 				</PanelBody>
 			</InspectorControls>,
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 			<div id={'k2-te-wrapper'} >
 				<div id={'k2-te-parent'} style={EditorMarginSettings}>
 					<div id={'k2-te-sub-parent'} style={EditorPaddingAndBorderSettings}>
@@ -689,11 +783,16 @@ registerBlockType( 'k2/text-editor', {
 							placeholder={ ( 'Write some text here...' ) }
 						/>
 					</div>
+<<<<<<< HEAD
 
 				</div>
 			 </div>
 
 
+=======
+				</div>
+			 </div>
+>>>>>>> master
 		]
 	},
 
@@ -701,7 +800,11 @@ registerBlockType( 'k2/text-editor', {
 
 	save( { attributes } ) {
 		const TextEditorStyling = {
+<<<<<<< HEAD
 			fontSize: attributes.EditorFontSize + 'px',
+=======
+			fontSize: attributes.EditorFontSize + 'vw',
+>>>>>>> master
 			fontFamily: attributes.EditorFontFamily,
 			color: attributes.EditorTextColor,
 			fontWeight: attributes.EditorFontWeight,
@@ -733,10 +836,17 @@ registerBlockType( 'k2/text-editor', {
 			width: attributes.EditorWidgetWidth + 'rem',
 
 		}
+<<<<<<< HEAD
 		return <div>
 					<div  style={EditorMarginSettings}>
 						<div style={EditorPaddingAndBorderSettings}>
 							<wp.blockEditor.RichText.Content tagName="p"
+=======
+		return <div id={'k2-te-wrapper'}>
+					<div id={'k2-te-parent'} style={EditorMarginSettings}>
+						<div  style={EditorPaddingAndBorderSettings}>
+							<RichText.Content tagName="p"
+>>>>>>> master
 								value={ attributes.EditorContent }
 								style={TextEditorStyling}
 								className={"k2-te-paragraph"}
